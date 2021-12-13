@@ -162,10 +162,12 @@ footer{
     /* Pour avoir des pointillés sur le bord du haut du footer */
     border-top: 1px dashed black;
     background-size: cover;
-    text-align: justify;
+
+
+
     padding: 0px;
     width: 100%;
-    height: auto;
+    height: 450px;
     background: rgb(116, 112, 112); 
 
     /* Pour les afficher les uns a coté des autres */
@@ -236,36 +238,26 @@ footer{
 #gagoe{
     padding: 15px;
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 48%; 
-    height: auto;
+    margin-top:25px;
+    width: 450px; 
+    height: 410px;
     background: url(./teste4.png) no-repeat center;
     background-size: cover;
     color: black;
     border-radius: 10px;
 }
 
-#gagoe > p{
-    display: inline;
-}
-
 
 #mitchenko{
     padding: 15px;
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 48%; 
-    height: auto;
+    margin-top: 25px;
+    width: 450px; 
+    height: 410px;
     background: url(./test3.png) no-repeat center;
     background-size: cover;
     color: black;
     border-radius: 10px;
-}
-
-#mitchenko > p{
-    display: inline;
 }
 
 
@@ -302,7 +294,6 @@ footer{
 }
 
 /********************************** Responsive Body **********************************/
-
 @media screen and (max-width: 920px){
     #pokemon div{
         transition: 0.3s;
@@ -404,22 +395,30 @@ footer{
 }
 
 
-/********************************** Responsive Footer **********************************/
 
-@media screen and (max-width: 906px){
+
+
+/********************************** Responsive Footer **********************************/
+@media screen and (max-width: 900px){
     /* On va faire en sort que dées que la largeur sera en dessous de 1000px *
     * le logo passera au dessus du formulaire */
+    footer{
+        height: 880px;
+    }
     #gagoe{
-        width: 98%;
+        margin-top: 45px;
     }
     #mitchenko{
-        width: 98%;
+        margin-top: -25px;
     }
 }
 
 @media screen and (max-width: 396px){
     /* On va faire en sort que dées que la largeur sera en dessous de 1000px *
     * le logo passera au dessus du formulaire */
+    footer{
+        height: 1000px;
+    }
 
     #gagoe{
         height: 440px;
@@ -437,7 +436,6 @@ footer{
     * le logo passera au dessus du formulaire */
     footer{
         height: 1000px;
-        text-align: justify;
     }
 
     #gagoe{
@@ -455,7 +453,6 @@ footer{
     * le logo passera au dessus du formulaire */
     footer{
         height: 990px;
-        text-align: justify;
     }
 
     #gagoe{
