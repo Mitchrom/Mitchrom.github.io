@@ -105,7 +105,7 @@ span{
 }
 
 
-/********************************** Boddy **********************************/
+/********************************** Body **********************************/
 
 #pokemon div{
     transition: 0.3s;
@@ -125,11 +125,11 @@ section{
     /* Pour les aaligné */
     flex-direction: row;
 
-    /* Ainsi lorsqu un element sorte du contenaire il faut la repositionner en bas *
+    /* Ainsi lorsqu'un élement sort du contenaire, il faut la repositionner en bas *
     * parfait pour le responssive */
     flex-wrap: wrap;
 
-    /* Pour repartire les blocks de maniere egale */
+    /* Pour répartir les blocs de manière égale */
     justify-content: space-evenly;
     background: rgb(250, 247, 224);
 
@@ -139,10 +139,14 @@ img{
     height: 250px;
 }
 
-p{
+#pokemon > p{
     text-align: center;
     width: 200px;
     position: relative;
+}
+
+#pokemon > div{
+    text-align: center;
 }
 
 #pokemon div:hover{
@@ -154,7 +158,7 @@ p{
 
 /********************************** Footer **********************************/
 footer{
-    /* Pour avoir des pointiller sur le bord du haut du footer */
+    /* Pour avoir des pointillés sur le bord du haut du footer */
     border-top: 1px dashed black;
     background-size: cover;
 
@@ -165,7 +169,7 @@ footer{
     height: 450px;
     background: rgb(116, 112, 112); 
 
-    /* Pour les affichers les uns a coté des autres */
+    /* Pour les afficher les uns a coté des autres */
     display: flex;
 
     /* Pour les aaligné */
