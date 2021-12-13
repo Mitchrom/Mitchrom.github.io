@@ -91,7 +91,7 @@ body{
         width: 33%;
         border-radius: 10px;
         background: rgb(223, 219, 219);
-        box-shadow: 0px 5px 0px;
+        box-shadow: 2px 5px 2px grey;
     }
         
     #y{
@@ -101,7 +101,7 @@ body{
         width: 33%;  
         border-radius: 10px;
         background: rgb(223, 219, 219);
-        box-shadow: 0px 5px 0px;    
+        box-shadow: 2px 5px 2px grey;    
     }
         
 
@@ -112,7 +112,7 @@ body{
         width: 33%;
         border-radius: 10px;
         background: rgb(223, 219, 219);
-        box-shadow: 0px 5px 0px;
+        box-shadow: 2px 5px 2px grey;
     }
 
 #x:hover{
@@ -263,9 +263,9 @@ button:hover{
             width: 100%;
         }
 
-            /*#infos2{
+            #infos2{
                 overflow: scroll;
-            }*/
+            }
 
 
     #second{
