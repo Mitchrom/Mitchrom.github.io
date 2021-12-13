@@ -143,6 +143,7 @@ img{
     text-align: center;
     width: 200px;
     position: relative;
+    display: block;
 }
 
 #pokemon > div{
