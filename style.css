@@ -162,6 +162,7 @@ footer{
     /* Pour avoir des pointillés sur le bord du haut du footer */
     border-top: 1px dashed black;
     background-size: cover;
+    text-align: justify;
 
 
 
