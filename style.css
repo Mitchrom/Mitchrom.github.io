@@ -139,7 +139,7 @@ img{
     height: 250px;
 }
 
-figcaption{
+p{
     text-align: center;
     width: 200px;
     position: relative;
@@ -307,7 +307,7 @@ footer{
         height: 200px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 175px;
         position: relative;
@@ -322,7 +322,7 @@ footer{
         height: 185px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 150px;
         position: relative;
@@ -336,7 +336,7 @@ footer{
         height: 150px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 140px;
         position: relative;
@@ -351,7 +351,7 @@ footer{
         height: 130px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 120px;
         position: relative;
@@ -366,7 +366,7 @@ footer{
         height: 120px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 100px;
         position: relative;
@@ -381,7 +381,7 @@ footer{
         height: 100px;
     }
 
-    figcaption{
+    p{
         text-align: center;
         width: 90px;
         position: relative;

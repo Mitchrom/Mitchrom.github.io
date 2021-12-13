@@ -81,7 +81,7 @@ body{
 }
 
 #second > div:hover{
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
     #x{
@@ -176,7 +176,7 @@ body{
 
 
 
-figcaption{
+p{
     text-align: center;
     /*text-decoration: underline;*/
     font-size: 1.25em;
@@ -230,7 +230,7 @@ button:hover{
 
 @media only screen and (max-width: 700px){
 
-    figcaption{
+    p{
         font-size: large;
     }
 
@@ -265,6 +265,8 @@ button:hover{
 
             #infos2{
                 overflow: scroll;
+                /*background-image: url("pokeball.png");
+                background-color: rgba(0, 0, 0, 0.1);*/
             }
 
 
@@ -305,5 +307,7 @@ button:hover{
 @media only screen and (max-width: 300px){
     #infos2{
         overflow: scroll;
+        /*background-image: url("pokeball.png");
+        background-color: rgba(0, 0, 0, 0.1);*/
     }
 }
